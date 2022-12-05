@@ -1,7 +1,7 @@
 import React from "react";
 import ReactDOM from "react-dom";
 import "./index.css";
-import App from "./form -antd4/page/MyRcformPage";
+import App from "./formily/page/index";
 import reportWebVitals from "./reportWebVitals";
 
 ReactDOM.render(
