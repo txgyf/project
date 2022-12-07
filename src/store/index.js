@@ -5,7 +5,7 @@ import { createStore, applyMiddleware, combineReducers } from "../redux-nut";
 // import lodder from "redux-logger";
 import promise from "redux-promise";
 
-function countReducer(state = 0, action) {
+export function countReducer(state = 0, action) {
   switch (action.type) {
     case "ADD":
       return state + 1;

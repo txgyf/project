@@ -1,4 +1,4 @@
-import compose from "./compose";
+import { compose } from "./index";
 export default function applyMiddleware(...middlewares) {
   return (createStore) => (reducer) => {
     const store = createStore(reducer);
