@@ -10,39 +10,52 @@
     "@jridgewell/gen-mapping" "^0.1.0"
     "@jridgewell/trace-mapping" "^0.3.9"
 
-"@ant-design/colors@^6.0.0":
-  version "6.0.0"
-  resolved "http://rnpm.chehejia.com/@ant-design/colors/download/@ant-design/colors-6.0.0.tgz#9b9366257cffcc47db42b9d0203bb592c13c0298"
-  integrity sha1-m5NmJXz/zEfbQrnQIDu1ksE8Apg=
+"@ant-design/colors@^7.0.0":
+  version "7.0.0"
+  resolved "http://rnpm.chehejia.com/@ant-design/colors/download/@ant-design/colors-7.0.0.tgz#eb7eecead124c3533aea05d61254f0a17f2b61b3"
+  integrity sha1-637s6tEkw1M66gXWElTwoX8rYbM=
   dependencies:
     "@ctrl/tinycolor" "^3.4.0"
+
+"@ant-design/cssinjs@^1.4.0":
+  version "1.4.0"
+  resolved "http://rnpm.chehejia.com/@ant-design/cssinjs/download/@ant-design/cssinjs-1.4.0.tgz#c66aa468322d6fdec7f43c8ebd0f3171630d2711"
+  integrity sha1-xmqkaDItb97H9DyOvQ8xcWMNJxE=
+  dependencies:
+    "@babel/runtime" "^7.11.1"
+    "@emotion/hash" "^0.8.0"
+    "@emotion/unitless" "^0.7.5"
+    classnames "^2.3.1"
+    csstype "^3.0.10"
+    rc-util "^5.27.0"
+    stylis "^4.0.13"
 
 "@ant-design/icons-svg@^4.2.1":
   version "4.2.1"
   resolved "http://rnpm.chehejia.com/@ant-design/icons-svg/download/@ant-design/icons-svg-4.2.1.tgz#8630da8eb4471a4aabdaed7d1ff6a97dcb2cf05a"
   integrity sha1-hjDajrRHGkqr2u19H/apfcss8Fo=
 
-"@ant-design/icons@^4.7.0":
-  version "4.7.0"
-  resolved "http://rnpm.chehejia.com/@ant-design/icons/download/@ant-design/icons-4.7.0.tgz#8c3cbe0a556ba92af5dc7d1e70c0b25b5179af0f"
-  integrity sha1-jDy+ClVrqSr13H0ecMCyW1F5rw8=
+"@ant-design/icons@^5.0.0":
+  version "5.0.0"
+  resolved "http://rnpm.chehejia.com/@ant-design/icons/download/@ant-design/icons-5.0.0.tgz#15e7fb055b91abd71e49273aa25aaf5efe51f499"
+  integrity sha1-Fef7BVuRq9ceSSc6olqvXv5R9Jk=
   dependencies:
-    "@ant-design/colors" "^6.0.0"
+    "@ant-design/colors" "^7.0.0"
     "@ant-design/icons-svg" "^4.2.1"
     "@babel/runtime" "^7.11.2"
     classnames "^2.2.6"
     rc-util "^5.9.4"
 
-"@ant-design/react-slick@~0.28.1":
-  version "0.28.4"
-  resolved "http://rnpm.chehejia.com/@ant-design/react-slick/download/@ant-design/react-slick-0.28.4.tgz#8b296b87ad7c7ae877f2a527b81b7eebd9dd29a9"
-  integrity sha1-iylrh618euh38qUnuBt+69ndKak=
+"@ant-design/react-slick@~1.0.0":
+  version "1.0.0"
+  resolved "http://rnpm.chehejia.com/@ant-design/react-slick/download/@ant-design/react-slick-1.0.0.tgz#4696eecaa2dea0429e47ae24c267015cfd6df35c"
+  integrity sha1-RpbuyqLeoEKeR64kwmcBXP1t81w=
   dependencies:
     "@babel/runtime" "^7.10.4"
     classnames "^2.2.5"
     json2mq "^0.2.0"
-    lodash "^4.17.21"
-    resize-observer-polyfill "^1.5.0"
+    resize-observer-polyfill "^1.5.1"
+    throttle-debounce "^5.0.0"
 
 "@apideck/better-ajv-errors@^0.3.1":
   version "0.3.2"
@@ -1069,6 +1082,13 @@
   dependencies:
     regenerator-runtime "^0.13.10"
 
+"@babel/runtime@^7.16.7", "@babel/runtime@^7.18.0":
+  version "7.20.13"
+  resolved "http://rnpm.chehejia.com/@babel/runtime/download/@babel/runtime-7.20.13.tgz#7055ab8a7cff2b8f6058bf6ae45ff84ad2aded4b"
+  integrity sha1-cFWrinz/K49gWL9q5F/4StKt7Us=
+  dependencies:
+    regenerator-runtime "^0.13.11"
+
 "@babel/template@^7.18.10", "@babel/template@^7.3.3":
   version "7.18.10"
   resolved "http://rnpm.chehejia.com/@babel/template/download/@babel/template-7.18.10.tgz#6f9134835970d1dbf0835c0d100c9f38de0c5e71"
@@ -1108,17 +1128,18 @@
   resolved "http://rnpm.chehejia.com/@bcoe/v8-coverage/download/@bcoe/v8-coverage-0.2.3.tgz#75a2e8b51cb758a7553d6804a5932d7aace75c39"
   integrity sha1-daLotRy3WKdVPWgEpZMteqznXDk=
 
-"@craco/craco@^6.4.5":
-  version "6.4.5"
-  resolved "http://rnpm.chehejia.com/@craco/craco/download/@craco/craco-6.4.5.tgz#471e67082a2ffd3edf73759b215bdc16250d27b3"
-  integrity sha1-Rx5nCCov/T7fc3WbIVvcFiUNJ7M=
+"@craco/craco@^7.0.0":
+  version "7.0.0"
+  resolved "http://rnpm.chehejia.com/@craco/craco/download/@craco/craco-7.0.0.tgz#4e9243e53fba6ed4d2bc08aa65aae9d1b63541ed"
+  integrity sha1-TpJD5T+6btTSvAiqZarp0bY1Qe0=
   dependencies:
+    autoprefixer "^10.4.12"
     cosmiconfig "^7.0.1"
     cosmiconfig-typescript-loader "^1.0.0"
-    cross-spawn "^7.0.0"
-    lodash "^4.17.15"
-    semver "^7.3.2"
-    webpack-merge "^4.2.2"
+    cross-spawn "^7.0.3"
+    lodash "^4.17.21"
+    semver "^7.3.7"
+    webpack-merge "^5.8.0"
 
 "@cspotcode/source-map-support@^0.8.0":
   version "0.8.1"
@@ -1243,6 +1264,16 @@
   resolved "http://rnpm.chehejia.com/@ctrl/tinycolor/download/@ctrl/tinycolor-3.4.1.tgz#75b4c27948c81e88ccd3a8902047bcd797f38d32"
   integrity sha1-dbTCeUjIHojM06iQIEe815fzjTI=
 
+"@emotion/hash@^0.8.0":
+  version "0.8.0"
+  resolved "http://rnpm.chehejia.com/@emotion/hash/download/@emotion/hash-0.8.0.tgz#bbbff68978fefdbe68ccb533bc8cbe1d1afb5413"
+  integrity sha1-u7/2iXj+/b5ozLUzvIy+HRr7VBM=
+
+"@emotion/unitless@^0.7.5":
+  version "0.7.5"
+  resolved "http://rnpm.chehejia.com/@emotion/unitless/download/@emotion/unitless-0.7.5.tgz#77211291c1900a700b8a78cfafda3160d76949ed"
+  integrity sha1-dyESkcGQCnALinjPr9oxYNdpSe0=
+
 "@eslint/eslintrc@^1.3.3":
   version "1.3.3"
   resolved "http://rnpm.chehejia.com/@eslint/eslintrc/download/@eslint/eslintrc-1.3.3.tgz#2b044ab39fdfa75b4688184f9e573ce3c5b0ff95"
@@ -1257,6 +1288,18 @@
     js-yaml "^4.1.0"
     minimatch "^3.1.2"
     strip-json-comments "^3.1.1"
+
+"@formatjs/intl-unified-numberformat@^3.2.0":
+  version "3.3.7"
+  resolved "http://rnpm.chehejia.com/@formatjs/intl-unified-numberformat/download/@formatjs/intl-unified-numberformat-3.3.7.tgz#9995a24568908188e716d81a1de5b702b2ee00e2"
+  integrity sha1-mZWiRWiQgYjnFtgaHeW3ArLuAOI=
+  dependencies:
+    "@formatjs/intl-utils" "^2.3.0"
+
+"@formatjs/intl-utils@^2.3.0":
+  version "2.3.0"
+  resolved "http://rnpm.chehejia.com/@formatjs/intl-utils/download/@formatjs/intl-utils-2.3.0.tgz#2dc8c57044de0340eb53a7ba602e59abf80dc799"
+  integrity sha1-LcjFcETeA0DrU6e6YC5Zq/gNx5k=
 
 "@humanwhocodes/config-array@^0.11.6":
   version "0.11.6"
@@ -1625,6 +1668,50 @@
     loader-utils "^2.0.0"
     schema-utils "^3.0.0"
     source-map "^0.7.3"
+
+"@rc-component/context@^1.3.0":
+  version "1.3.0"
+  resolved "http://rnpm.chehejia.com/@rc-component/context/download/@rc-component/context-1.3.0.tgz#608ccf0abcbec9406751b17a4b35db08e481c110"
+  integrity sha1-YIzPCry+yUBnUbF6SzXbCOSBwRA=
+  dependencies:
+    "@babel/runtime" "^7.10.1"
+    rc-util "^5.27.0"
+
+"@rc-component/mini-decimal@^1.0.1":
+  version "1.0.1"
+  resolved "http://rnpm.chehejia.com/@rc-component/mini-decimal/download/@rc-component/mini-decimal-1.0.1.tgz#e5dbc20a6a5b0e234d279bc71ce730ab865d3910"
+  integrity sha1-5dvCCmpbDiNNJ5vHHOcwq4ZdORA=
+  dependencies:
+    "@babel/runtime" "^7.18.0"
+
+"@rc-component/mutate-observer@^1.0.0":
+  version "1.0.0"
+  resolved "http://rnpm.chehejia.com/@rc-component/mutate-observer/download/@rc-component/mutate-observer-1.0.0.tgz#ce99af3239ed9c74ee3e7302f1c67098de920b46"
+  integrity sha1-zpmvMjntnHTuPnMC8cZwmN6SC0Y=
+  dependencies:
+    "@babel/runtime" "^7.18.0"
+    classnames "^2.3.2"
+    rc-util "^5.24.4"
+
+"@rc-component/portal@^1.0.0-6", "@rc-component/portal@^1.0.0-8", "@rc-component/portal@^1.0.0-9", "@rc-component/portal@^1.0.2":
+  version "1.1.0"
+  resolved "http://rnpm.chehejia.com/@rc-component/portal/download/@rc-component/portal-1.1.0.tgz#6b94450d2c2b00d50b141bd7a0be23bd96503dbe"
+  integrity sha1-a5RFDSwrANULFBvXoL4jvZZQPb4=
+  dependencies:
+    "@babel/runtime" "^7.18.0"
+    classnames "^2.3.2"
+    rc-util "^5.24.4"
+
+"@rc-component/tour@~1.1.0":
+  version "1.1.0"
+  resolved "http://rnpm.chehejia.com/@rc-component/tour/download/@rc-component/tour-1.1.0.tgz#17b43b5c0bdfb6a8ab3027b1977d960952616d9e"
+  integrity sha1-F7Q7XAvftqirMCexl32WCVJhbZ4=
+  dependencies:
+    "@babel/runtime" "^7.18.0"
+    "@rc-component/portal" "^1.0.0-9"
+    classnames "^2.3.2"
+    rc-trigger "^5.3.4"
+    rc-util "^5.24.4"
 
 "@rollup/plugin-babel@^5.2.0":
   version "5.3.0"
@@ -2585,53 +2672,58 @@ ansi-styles@^5.0.0:
   resolved "http://rnpm.chehejia.com/ansi-styles/download/ansi-styles-5.2.0.tgz#07449690ad45777d1924ac2abb2fc8895dba836b"
   integrity sha1-B0SWkK1Fd30ZJKwquy/IiV26g2s=
 
-antd@^4.18.5:
-  version "4.18.5"
-  resolved "http://rnpm.chehejia.com/antd/download/antd-4.18.5.tgz#e5ffbe238fd6fdfcd1ed39ba96e4b1bd5f589757"
-  integrity sha1-5f++I4/W/fzR7Tm6luSxvV9Yl1c=
+antd@^5.1.5:
+  version "5.1.5"
+  resolved "http://rnpm.chehejia.com/antd/download/antd-5.1.5.tgz#792440a2ffbce965ef45670d020f272e541e8686"
+  integrity sha1-eSRAov+86WXvRWcNAg8nLlQehoY=
   dependencies:
-    "@ant-design/colors" "^6.0.0"
-    "@ant-design/icons" "^4.7.0"
-    "@ant-design/react-slick" "~0.28.1"
-    "@babel/runtime" "^7.12.5"
+    "@ant-design/colors" "^7.0.0"
+    "@ant-design/cssinjs" "^1.4.0"
+    "@ant-design/icons" "^5.0.0"
+    "@ant-design/react-slick" "~1.0.0"
+    "@babel/runtime" "^7.18.3"
     "@ctrl/tinycolor" "^3.4.0"
+    "@rc-component/mutate-observer" "^1.0.0"
+    "@rc-component/tour" "~1.1.0"
     classnames "^2.2.6"
     copy-to-clipboard "^3.2.0"
-    lodash "^4.17.21"
-    memoize-one "^6.0.0"
-    moment "^2.25.3"
-    rc-cascader "~3.2.1"
+    dayjs "^1.11.1"
+    qrcode.react "^3.1.0"
+    rc-cascader "~3.8.0"
     rc-checkbox "~2.3.0"
-    rc-collapse "~3.1.0"
-    rc-dialog "~8.6.0"
-    rc-drawer "~4.4.2"
-    rc-dropdown "~3.2.0"
-    rc-field-form "~1.22.0-2"
-    rc-image "~5.2.5"
-    rc-input-number "~7.3.0"
-    rc-mentions "~1.6.1"
-    rc-menu "~9.2.1"
-    rc-motion "^2.4.4"
-    rc-notification "~4.5.7"
-    rc-pagination "~3.1.9"
-    rc-picker "~2.5.17"
-    rc-progress "~3.2.1"
+    rc-collapse "~3.4.2"
+    rc-dialog "~9.0.2"
+    rc-drawer "~6.1.1"
+    rc-dropdown "~4.0.0"
+    rc-field-form "~1.27.0"
+    rc-image "~5.13.0"
+    rc-input "~0.1.4"
+    rc-input-number "~7.4.0"
+    rc-mentions "~1.13.1"
+    rc-menu "~9.8.0"
+    rc-motion "^2.6.1"
+    rc-notification "~5.0.0"
+    rc-pagination "~3.2.0"
+    rc-picker "~3.1.1"
+    rc-progress "~3.4.1"
     rc-rate "~2.9.0"
     rc-resize-observer "^1.2.0"
-    rc-select "~14.0.0-alpha.15"
-    rc-slider "~9.7.4"
-    rc-steps "~4.1.0"
-    rc-switch "~3.2.0"
-    rc-table "~7.22.2"
-    rc-tabs "~11.10.0"
-    rc-textarea "~0.3.0"
-    rc-tooltip "~5.1.1"
-    rc-tree "~5.4.3"
-    rc-tree-select "~5.1.1"
-    rc-trigger "^5.2.10"
+    rc-segmented "~2.1.0"
+    rc-select "~14.2.0"
+    rc-slider "~10.0.0"
+    rc-steps "~6.0.0"
+    rc-switch "~4.0.0"
+    rc-table "~7.30.2"
+    rc-tabs "~12.5.1"
+    rc-textarea "~0.4.5"
+    rc-tooltip "~5.2.0"
+    rc-tree "~5.7.0"
+    rc-tree-select "~5.6.0"
+    rc-trigger "^5.3.4"
     rc-upload "~4.3.0"
-    rc-util "^5.14.0"
-    scroll-into-view-if-needed "^2.2.25"
+    rc-util "^5.27.0"
+    scroll-into-view-if-needed "^3.0.3"
+    throttle-debounce "^5.0.0"
 
 anymatch@^3.0.3, anymatch@~3.1.2:
   version "3.1.2"
@@ -2736,7 +2828,7 @@ ast-types-flow@^0.0.7:
   resolved "http://rnpm.chehejia.com/ast-types-flow/download/ast-types-flow-0.0.7.tgz#f70b735c6bca1a5c9c22d982c3e39e7feba3bdad"
   integrity sha1-9wtzXGvKGlycItmCw+Oef+ujva0=
 
-async-validator@^4.0.2:
+async-validator@^4.1.0:
   version "4.2.5"
   resolved "http://rnpm.chehejia.com/async-validator/download/async-validator-4.2.5.tgz#c96ea3332a521699d0afaaceed510a54656c6339"
   integrity sha1-yW6jMypSFpnQr6rO7VEKVGVsYzk=
@@ -2760,6 +2852,18 @@ atob@^2.1.2:
   version "2.1.2"
   resolved "http://rnpm.chehejia.com/atob/download/atob-2.1.2.tgz#6d9517eb9e030d2436666651e86bd9f6f13533c9"
   integrity sha1-bZUX654DDSQ2ZmZR6GvZ9vE1M8k=
+
+autoprefixer@^10.4.12:
+  version "10.4.13"
+  resolved "http://rnpm.chehejia.com/autoprefixer/download/autoprefixer-10.4.13.tgz#b5136b59930209a321e9fa3dca2e7c4d223e83a8"
+  integrity sha1-tRNrWZMCCaMh6fo9yi58TSI+g6g=
+  dependencies:
+    browserslist "^4.21.4"
+    caniuse-lite "^1.0.30001426"
+    fraction.js "^4.2.0"
+    normalize-range "^0.1.2"
+    picocolors "^1.0.0"
+    postcss-value-parser "^4.2.0"
 
 autoprefixer@^10.4.8:
   version "10.4.8"
@@ -3102,6 +3206,11 @@ caniuse-lite@^1.0.0, caniuse-lite@^1.0.30001373, caniuse-lite@^1.0.30001400:
   resolved "http://rnpm.chehejia.com/caniuse-lite/download/caniuse-lite-1.0.30001418.tgz#5f459215192a024c99e3e3a53aac310fc7cf24e6"
   integrity sha1-X0WSFRkqAkyZ4+OlOqwxD8fPJOY=
 
+caniuse-lite@^1.0.30001426:
+  version "1.0.30001436"
+  resolved "http://rnpm.chehejia.com/caniuse-lite/download/caniuse-lite-1.0.30001436.tgz#22d7cbdbbbb60cdc4ca1030ccd6dea9f5de4848b"
+  integrity sha1-ItfL27u2DNxMoQMMzW3qn13khIs=
+
 case-sensitive-paths-webpack-plugin@^2.4.0:
   version "2.4.0"
   resolved "http://rnpm.chehejia.com/case-sensitive-paths-webpack-plugin/download/case-sensitive-paths-webpack-plugin-2.4.0.tgz#db64066c6422eed2e08cc14b986ca43796dbc6d4"
@@ -3177,7 +3286,7 @@ cjs-module-lexer@^1.0.0:
   resolved "http://rnpm.chehejia.com/cjs-module-lexer/download/cjs-module-lexer-1.2.2.tgz#9f84ba3244a512f3a54e5277e8eef4c489864e40"
   integrity sha1-n4S6MkSlEvOlTlJ36O70xImGTkA=
 
-classnames@2.x, classnames@^2.2.1, classnames@^2.2.3, classnames@^2.2.5, classnames@^2.2.6, classnames@^2.3.1:
+classnames@2.x, classnames@^2.2.1, classnames@^2.2.3, classnames@^2.2.5, classnames@^2.2.6, classnames@^2.3.1, classnames@^2.3.2:
   version "2.3.2"
   resolved "http://rnpm.chehejia.com/classnames/download/classnames-2.3.2.tgz#351d813bf0137fcc6a76a16b88208d2560a0d924"
   integrity sha1-NR2BO/ATf8xqdqFriCCNJWCg2SQ=
@@ -3197,6 +3306,15 @@ cliui@^7.0.2:
     string-width "^4.2.0"
     strip-ansi "^6.0.0"
     wrap-ansi "^7.0.0"
+
+clone-deep@^4.0.1:
+  version "4.0.1"
+  resolved "http://rnpm.chehejia.com/clone-deep/download/clone-deep-4.0.1.tgz#c19fd9bdbbf85942b4fd979c84dcf7d5f07c2387"
+  integrity sha1-wZ/Zvbv4WUK0/ZechNz31fB8I4c=
+  dependencies:
+    is-plain-object "^2.0.4"
+    kind-of "^6.0.2"
+    shallow-clone "^3.0.0"
 
 co@^4.6.0:
   version "4.6.0"
@@ -3308,10 +3426,10 @@ compression@^1.7.4:
     safe-buffer "5.1.2"
     vary "~1.1.2"
 
-compute-scroll-into-view@^1.0.17:
-  version "1.0.17"
-  resolved "http://rnpm.chehejia.com/compute-scroll-into-view/download/compute-scroll-into-view-1.0.17.tgz#6a88f18acd9d42e9cf4baa6bec7e0522607ab7ab"
-  integrity sha1-aojxis2dQunPS6pr7H4FImB6t6s=
+compute-scroll-into-view@^2.0.4:
+  version "2.0.4"
+  resolved "http://rnpm.chehejia.com/compute-scroll-into-view/download/compute-scroll-into-view-2.0.4.tgz#2b444b2b9e4724819d2531efacb7ac094155fdf6"
+  integrity sha1-K0RLK55HJIGdJTHvrLesCUFV/fY=
 
 concat-map@0.0.1:
   version "0.0.1"
@@ -3354,6 +3472,11 @@ cookie@0.5.0:
   version "0.5.0"
   resolved "http://rnpm.chehejia.com/cookie/download/cookie-0.5.0.tgz#d1f5d71adec6558c58f389987c366aa47e994f8b"
   integrity sha1-0fXXGt7GVYxY84mYfDZqpH6ZT4s=
+
+cookie@^0.3.1:
+  version "0.3.1"
+  resolved "http://rnpm.chehejia.com/cookie/download/cookie-0.3.1.tgz#e7e0a1f9ef43b4c8ba925c5c5a96e806d16873bb"
+  integrity sha1-5+Ch+e9DtMi6klxcWpboBtFoc7s=
 
 copy-anything@^2.0.1:
   version "2.0.6"
@@ -3434,7 +3557,7 @@ create-require@^1.1.0:
   resolved "http://rnpm.chehejia.com/create-require/download/create-require-1.1.1.tgz#c1d7e8f1e5f6cfc9ff65f9cd352d37348756c333"
   integrity sha1-wdfo8eX2z8n/ZfnNNS03NIdWwzM=
 
-cross-spawn@^7.0.0, cross-spawn@^7.0.2, cross-spawn@^7.0.3:
+cross-spawn@^7.0.2, cross-spawn@^7.0.3:
   version "7.0.3"
   resolved "http://rnpm.chehejia.com/cross-spawn/download/cross-spawn-7.0.3.tgz#f73a85b9d5d41d045551c177e2882d4ac85728a6"
   integrity sha1-9zqFudXUHQRVUcF34ogtSshXKKY=
@@ -3647,6 +3770,11 @@ cssstyle@^2.3.0:
   dependencies:
     cssom "~0.3.6"
 
+csstype@^3.0.10:
+  version "3.1.1"
+  resolved "http://rnpm.chehejia.com/csstype/download/csstype-3.1.1.tgz#841b532c45c758ee546a11d5bd7b7b473c8c30b9"
+  integrity sha1-hBtTLEXHWO5UahHVvXt7RzyMMLk=
+
 damerau-levenshtein@^1.0.7:
   version "1.0.8"
   resolved "http://rnpm.chehejia.com/damerau-levenshtein/download/damerau-levenshtein-1.0.8.tgz#b43d286ccbd36bc5b2f7ed41caf2d0aba1f8a6e7"
@@ -3661,15 +3789,10 @@ data-urls@^2.0.0:
     whatwg-mimetype "^2.3.0"
     whatwg-url "^8.0.0"
 
-date-fns@2.x:
-  version "2.28.0"
-  resolved "http://rnpm.chehejia.com/date-fns/download/date-fns-2.28.0.tgz#9570d656f5fc13143e50c975a3b6bbeb46cd08b2"
-  integrity sha1-lXDWVvX8ExQ+UMl1o7a760bNCLI=
-
-dayjs@1.x:
-  version "1.10.7"
-  resolved "http://rnpm.chehejia.com/dayjs/download/dayjs-1.10.7.tgz#2cf5f91add28116748440866a0a1d26f3a6ce468"
-  integrity sha1-LPX5Gt0oEWdIRAhmoKHSbzps5Gg=
+dayjs@^1.11.1:
+  version "1.11.7"
+  resolved "http://rnpm.chehejia.com/dayjs/download/dayjs-1.11.7.tgz#4b296922642f70999544d1144a2c25730fce63e2"
+  integrity sha1-SylpImQvcJmVRNEUSiwlcw/OY+I=
 
 debug@2.6.9, debug@^2.6.0, debug@^2.6.9:
   version "2.6.9"
@@ -4082,7 +4205,7 @@ escalade@^3.1.1:
   resolved "http://rnpm.chehejia.com/escalade/download/escalade-3.1.1.tgz#d8cfdc7000965c5a0174b4a82eaa5c0552742e40"
   integrity sha1-2M/ccACWXFoBdLSoLqpcBVJ0LkA=
 
-escape-html@~1.0.3:
+escape-html@^1.0.3, escape-html@~1.0.3:
   version "1.0.3"
   resolved "http://rnpm.chehejia.com/escape-html/download/escape-html-1.0.3.tgz#0258eae4d3d0c0974de1c169188ef0051d1d1988"
   integrity sha1-Aljq5NPQwJdN4cFpGI7wBR0dGYg=
@@ -5133,6 +5256,38 @@ internal-slot@^1.0.3:
     has "^1.0.3"
     side-channel "^1.0.4"
 
+intl-format-cache@^4.2.21:
+  version "4.3.1"
+  resolved "http://rnpm.chehejia.com/intl-format-cache/download/intl-format-cache-4.3.1.tgz#484d31a9872161e6c02139349b259a6229ade377"
+  integrity sha1-SE0xqYchYebAITk0myWaYimt43c=
+
+intl-messageformat-parser@^3.6.4:
+  version "3.6.4"
+  resolved "http://rnpm.chehejia.com/intl-messageformat-parser/download/intl-messageformat-parser-3.6.4.tgz#5199d106d816c3dda26ee0694362a9cf823978fb"
+  integrity sha1-UZnRBtgWw92ibuBpQ2Kpz4I5ePs=
+  dependencies:
+    "@formatjs/intl-unified-numberformat" "^3.2.0"
+
+intl-messageformat@^7.8.4:
+  version "7.8.4"
+  resolved "http://rnpm.chehejia.com/intl-messageformat/download/intl-messageformat-7.8.4.tgz#c29146a06b9cd26662978a4d95fff2b133e3642f"
+  integrity sha1-wpFGoGuc0mZil4pNlf/ysTPjZC8=
+  dependencies:
+    intl-format-cache "^4.2.21"
+    intl-messageformat-parser "^3.6.4"
+
+intl@^1.2.5:
+  version "1.2.5"
+  resolved "http://rnpm.chehejia.com/intl/download/intl-1.2.5.tgz#82244a2190c4e419f8371f5aa34daa3420e2abde"
+  integrity sha1-giRKIZDE5Bn4Nx9ao02qNCDiq94=
+
+invariant@^2.2.2:
+  version "2.2.4"
+  resolved "http://rnpm.chehejia.com/invariant/download/invariant-2.2.4.tgz#610f3c92c9359ce1db616e538008d23ff35158e6"
+  integrity sha1-YQ88ksk1nOHbYW5TgAjSP/NRWOY=
+  dependencies:
+    loose-envify "^1.0.0"
+
 ipaddr.js@1.9.1:
   version "1.9.1"
   resolved "http://rnpm.chehejia.com/ipaddr.js/download/ipaddr.js-1.9.1.tgz#bff38543eeb8984825079ff3a2a8e6cbd46781b3"
@@ -5253,6 +5408,13 @@ is-plain-obj@^3.0.0:
   resolved "http://rnpm.chehejia.com/is-plain-obj/download/is-plain-obj-3.0.0.tgz#af6f2ea14ac5a646183a5bbdb5baabbc156ad9d7"
   integrity sha1-r28uoUrFpkYYOlu9tbqrvBVq2dc=
 
+is-plain-object@^2.0.4:
+  version "2.0.4"
+  resolved "http://rnpm.chehejia.com/is-plain-object/download/is-plain-object-2.0.4.tgz#2c163b3fafb1b606d9d17928f05c2a1c38e07677"
+  integrity sha1-LBY7P6+xtgbZ0Xko8FwqHDjgdnc=
+  dependencies:
+    isobject "^3.0.1"
+
 is-potential-custom-element-name@^1.0.1:
   version "1.0.1"
   resolved "http://rnpm.chehejia.com/is-potential-custom-element-name/download/is-potential-custom-element-name-1.0.1.tgz#171ed6f19e3ac554394edf78caa05784a45bebb5"
@@ -5335,6 +5497,11 @@ isexe@^2.0.0:
   version "2.0.0"
   resolved "http://rnpm.chehejia.com/isexe/download/isexe-2.0.0.tgz#e8fbf374dc556ff8947a10dcb0572d633f2cfa10"
   integrity sha1-6PvzdNxVb/iUehDcsFctYz8s+hA=
+
+isobject@^3.0.1:
+  version "3.0.1"
+  resolved "http://rnpm.chehejia.com/isobject/download/isobject-3.0.1.tgz#4e431e92b11a9731636aa1f9c8d1ccbcfdab78df"
+  integrity sha1-TkMekrEalzFjaqH5yNHMvP2reN8=
 
 istanbul-lib-coverage@^3.0.0, istanbul-lib-coverage@^3.2.0:
   version "3.2.0"
@@ -6216,7 +6383,7 @@ lodash@^4.17.15, lodash@^4.17.20, lodash@^4.17.21, lodash@^4.7.0:
   resolved "http://rnpm.chehejia.com/lodash/download/lodash-4.17.21.tgz#679591c564c3bffaae8454cf0b3df370c3d6911c"
   integrity sha1-Z5WRxWTDv/quhFTPCz3zcMPWkRw=
 
-loose-envify@^1.1.0, loose-envify@^1.4.0:
+loose-envify@^1.0.0, loose-envify@^1.1.0, loose-envify@^1.4.0:
   version "1.4.0"
   resolved "http://rnpm.chehejia.com/loose-envify/download/loose-envify-1.4.0.tgz#71ee51fa7be4caec1a63839f7e682d8132d30caf"
   integrity sha1-ce5R+nvkyuwaY4OffmgtgTLTDK8=
@@ -6297,11 +6464,6 @@ memfs@^3.1.2, memfs@^3.4.3:
   integrity sha1-5SUq0iQqck+TjLk348T3zrH3Dlo=
   dependencies:
     fs-monkey "^1.0.3"
-
-memoize-one@^6.0.0:
-  version "6.0.0"
-  resolved "http://rnpm.chehejia.com/memoize-one/download/memoize-one-6.0.0.tgz#b2591b871ed82948aee4727dc6abceeeac8c1045"
-  integrity sha1-slkbhx7YKUiu5HJ9xqvO7qyMEEU=
 
 merge-descriptors@1.0.1:
   version "1.0.1"
@@ -6402,11 +6564,6 @@ mkdirp@~0.5.1:
   integrity sha1-fe8D0kMtyuS6HWEURcSDlgYiVfY=
   dependencies:
     minimist "^1.2.6"
-
-moment@^2.24.0, moment@^2.25.3:
-  version "2.29.4"
-  resolved "http://rnpm.chehejia.com/moment/download/moment-2.29.4.tgz#3dbe052889fe7c1b2ed966fcb3a77328964ef108"
-  integrity sha1-Pb4FKIn+fBsu2Wb8s6dzKJZO8Qg=
 
 ms@2.0.0:
   version "2.0.0"
@@ -6539,7 +6696,7 @@ object-inspect@^1.12.2, object-inspect@^1.9.0:
   resolved "http://rnpm.chehejia.com/object-inspect/download/object-inspect-1.12.2.tgz#c0641f26394532f28ab8d796ab954e43c009a8ea"
   integrity sha1-wGQfJjlFMvKKuNeWq5VOQ8AJqOo=
 
-object-keys@^1.1.1:
+object-keys@^1.0.11, object-keys@^1.1.1:
   version "1.1.1"
   resolved "http://rnpm.chehejia.com/object-keys/download/object-keys-1.1.1.tgz#1c47f272df277f3b1daf061677d9c82e2322c60e"
   integrity sha1-HEfyct8nfzsdrwYWd9nILiMixg4=
@@ -7502,12 +7659,22 @@ q@^1.1.2:
   resolved "http://rnpm.chehejia.com/q/download/q-1.5.1.tgz#7e32f75b41381291d04611f1bf14109ac00651d7"
   integrity sha1-fjL3W0E4EpHQRhHxvxQQmsAGUdc=
 
+qrcode.react@^3.1.0:
+  version "3.1.0"
+  resolved "http://rnpm.chehejia.com/qrcode.react/download/qrcode.react-3.1.0.tgz#5c91ddc0340f768316fbdb8fff2765134c2aecd8"
+  integrity sha1-XJHdwDQPdoMW+9uP/ydlE0wq7Ng=
+
 qs@6.11.0:
   version "6.11.0"
   resolved "http://rnpm.chehejia.com/qs/download/qs-6.11.0.tgz#fd0d963446f7a65e1367e01abd85429453f0c37a"
   integrity sha1-/Q2WNEb3pl4TZ+AavYVClFPww3o=
   dependencies:
     side-channel "^1.0.4"
+
+querystring@^0.2.0:
+  version "0.2.1"
+  resolved "http://rnpm.chehejia.com/querystring/download/querystring-0.2.1.tgz#40d77615bb09d16902a85c3e38aa8b5ed761c2dd"
+  integrity sha1-QNd2FbsJ0WkCqFw+OKqLXtdhwt0=
 
 querystringify@^2.1.1:
   version "2.2.0"
@@ -7565,16 +7732,16 @@ rc-align@^4.0.0:
     rc-util "^5.3.0"
     resize-observer-polyfill "^1.5.1"
 
-rc-cascader@~3.2.1:
-  version "3.2.9"
-  resolved "http://rnpm.chehejia.com/rc-cascader/download/rc-cascader-3.2.9.tgz#b993fa2829d77e9cb98cf4b7711e13a1b1812db6"
-  integrity sha1-uZP6KCnXfpy5jPS3cR4TobGBLbY=
+rc-cascader@~3.8.0:
+  version "3.8.0"
+  resolved "http://rnpm.chehejia.com/rc-cascader/download/rc-cascader-3.8.0.tgz#5eaca8998b2e3f5692d13f16bfe2346eccc87c6a"
+  integrity sha1-XqyomYsuP1aS0T8Wv+I0bszIfGo=
   dependencies:
     "@babel/runtime" "^7.12.5"
     array-tree-filter "^2.1.0"
     classnames "^2.3.1"
-    rc-select "~14.0.0-alpha.23"
-    rc-tree "~5.4.3"
+    rc-select "~14.2.0"
+    rc-tree "~5.7.0"
     rc-util "^5.6.1"
 
 rc-checkbox@~2.3.0:
@@ -7585,10 +7752,10 @@ rc-checkbox@~2.3.0:
     "@babel/runtime" "^7.10.1"
     classnames "^2.2.1"
 
-rc-collapse@~3.1.0:
-  version "3.1.4"
-  resolved "http://rnpm.chehejia.com/rc-collapse/download/rc-collapse-3.1.4.tgz#063e33fcc427a378e63da757898cd1fba6269679"
-  integrity sha1-Bj4z/MQno3jmPadXiYzR+6Ymlnk=
+rc-collapse@~3.4.2:
+  version "3.4.2"
+  resolved "http://rnpm.chehejia.com/rc-collapse/download/rc-collapse-3.4.2.tgz#1310be7ad4cd0dcfc622c45f6c3b5ffdee403ad7"
+  integrity sha1-ExC+etTNDc/GIsRfbDtf/e5AOtc=
   dependencies:
     "@babel/runtime" "^7.10.1"
     classnames "2.x"
@@ -7596,111 +7763,104 @@ rc-collapse@~3.1.0:
     rc-util "^5.2.1"
     shallowequal "^1.1.0"
 
-rc-dialog@~8.6.0:
-  version "8.6.0"
-  resolved "http://rnpm.chehejia.com/rc-dialog/download/rc-dialog-8.6.0.tgz#3b228dac085de5eed8c6237f31162104687442e7"
-  integrity sha1-OyKNrAhd5e7YxiN/MRYhBGh0Quc=
+rc-dialog@~9.0.0, rc-dialog@~9.0.2:
+  version "9.0.2"
+  resolved "http://rnpm.chehejia.com/rc-dialog/download/rc-dialog-9.0.2.tgz#aadfebdeba145f256c1fac9b9f509f893cdbb5b8"
+  integrity sha1-qt/r3roUXyVsH6ybn1CfiTzbtbg=
   dependencies:
     "@babel/runtime" "^7.10.1"
+    "@rc-component/portal" "^1.0.0-8"
     classnames "^2.2.6"
     rc-motion "^2.3.0"
-    rc-util "^5.6.1"
+    rc-util "^5.21.0"
 
-rc-drawer@~4.4.2:
-  version "4.4.3"
-  resolved "http://rnpm.chehejia.com/rc-drawer/download/rc-drawer-4.4.3.tgz#2094937a844e55dc9644236a2d9fba79c344e321"
-  integrity sha1-IJSTeoROVdyWRCNqLZ+6ecNE4yE=
+rc-drawer@~6.1.1:
+  version "6.1.2"
+  resolved "http://rnpm.chehejia.com/rc-drawer/download/rc-drawer-6.1.2.tgz#032918a21bfa8a7d9e52ada1e7b8ed08c0ae6346"
+  integrity sha1-AykYohv6in2eUq2h57jtCMCuY0Y=
   dependencies:
     "@babel/runtime" "^7.10.1"
+    "@rc-component/portal" "^1.0.0-6"
     classnames "^2.2.6"
-    rc-util "^5.7.0"
+    rc-motion "^2.6.1"
+    rc-util "^5.21.2"
 
-rc-dropdown@^3.2.0:
-  version "3.6.2"
-  resolved "http://rnpm.chehejia.com/rc-dropdown/download/rc-dropdown-3.6.2.tgz#d23b8b2762941ac39e665673946f67ca9c39118f"
-  integrity sha1-0juLJ2KUGsOeZlZzlG9nypw5EY8=
+rc-dropdown@~4.0.0:
+  version "4.0.1"
+  resolved "http://rnpm.chehejia.com/rc-dropdown/download/rc-dropdown-4.0.1.tgz#f65d9d3d89750241057db59d5a75e43cd4576b68"
+  integrity sha1-9l2dPYl1AkEFfbWdWnXkPNRXa2g=
   dependencies:
-    "@babel/runtime" "^7.10.1"
+    "@babel/runtime" "^7.18.3"
     classnames "^2.2.6"
-    rc-trigger "^5.0.4"
+    rc-trigger "^5.3.1"
     rc-util "^5.17.0"
 
-rc-dropdown@~3.2.0:
-  version "3.2.5"
-  resolved "http://rnpm.chehejia.com/rc-dropdown/download/rc-dropdown-3.2.5.tgz#c211e571d29d15e7f725b5a75fc8c7f371fc3348"
-  integrity sha1-whHlcdKdFef3JbWnX8jH83H8M0g=
+rc-field-form@~1.27.0:
+  version "1.27.3"
+  resolved "http://rnpm.chehejia.com/rc-field-form/download/rc-field-form-1.27.3.tgz#e5262796b91c80848a42a3e7a669bf459f08d63d"
+  integrity sha1-5SYnlrkcgISKQqPnpmm/RZ8I1j0=
   dependencies:
-    "@babel/runtime" "^7.10.1"
-    classnames "^2.2.6"
-    rc-trigger "^5.0.4"
-
-rc-field-form@~1.22.0-2:
-  version "1.22.1"
-  resolved "http://rnpm.chehejia.com/rc-field-form/download/rc-field-form-1.22.1.tgz#0bd2f4e730ff2f071529d00bef28e062362890f5"
-  integrity sha1-C9L05zD/LwcVKdAL7yjgYjYokPU=
-  dependencies:
-    "@babel/runtime" "^7.8.4"
-    async-validator "^4.0.2"
+    "@babel/runtime" "^7.18.0"
+    async-validator "^4.1.0"
     rc-util "^5.8.0"
 
-rc-image@~5.2.5:
-  version "5.2.5"
-  resolved "http://rnpm.chehejia.com/rc-image/download/rc-image-5.2.5.tgz#44e6ffc842626827960e7ab72e1c0d6f3a8ce440"
-  integrity sha1-ROb/yEJiaCeWDnq3LhwNbzqM5EA=
+rc-image@~5.13.0:
+  version "5.13.0"
+  resolved "http://rnpm.chehejia.com/rc-image/download/rc-image-5.13.0.tgz#1ed9b852a40b5eff34786ba7d2f0e9d26eeab874"
+  integrity sha1-Htm4UqQLXv80eGun0vDp0m7quHQ=
   dependencies:
     "@babel/runtime" "^7.11.2"
+    "@rc-component/portal" "^1.0.2"
     classnames "^2.2.6"
-    rc-dialog "~8.6.0"
+    rc-dialog "~9.0.0"
+    rc-motion "^2.6.2"
     rc-util "^5.0.6"
 
-rc-input-number@~7.3.0:
-  version "7.3.9"
-  resolved "http://rnpm.chehejia.com/rc-input-number/download/rc-input-number-7.3.9.tgz#bc6560376ea595e3bf8fbd3137711cbc158800b5"
-  integrity sha1-vGVgN26lleO/j70xN3EcvBWIALU=
+rc-input-number@~7.4.0:
+  version "7.4.0"
+  resolved "http://rnpm.chehejia.com/rc-input-number/download/rc-input-number-7.4.0.tgz#b8b4ffa8bbc04198e79ce8b9611756d046d128ec"
+  integrity sha1-uLT/qLvAQZjnnOi5YRdW0EbRKOw=
   dependencies:
     "@babel/runtime" "^7.10.1"
+    "@rc-component/mini-decimal" "^1.0.1"
     classnames "^2.2.5"
     rc-util "^5.23.0"
 
-rc-mentions@~1.6.1:
-  version "1.6.5"
-  resolved "http://rnpm.chehejia.com/rc-mentions/download/rc-mentions-1.6.5.tgz#d9516abd19a757c674df1c88a3459628fe95a149"
-  integrity sha1-2VFqvRmnV8Z03xyIo0WWKP6VoUk=
+rc-input@~0.1.4:
+  version "0.1.4"
+  resolved "http://rnpm.chehejia.com/rc-input/download/rc-input-0.1.4.tgz#45cb4ba209ae6cc835a2acb8629d4f8f0cb347e0"
+  integrity sha1-RctLogmubMg1oqy4Yp1PjwyzR+A=
+  dependencies:
+    "@babel/runtime" "^7.11.1"
+    classnames "^2.2.1"
+    rc-util "^5.18.1"
+
+rc-mentions@~1.13.1:
+  version "1.13.1"
+  resolved "http://rnpm.chehejia.com/rc-mentions/download/rc-mentions-1.13.1.tgz#c884b70e1505a197f1b32a7c6b39090db6992a72"
+  integrity sha1-yIS3DhUFoZfxsyp8azkJDbaZKnI=
   dependencies:
     "@babel/runtime" "^7.10.1"
     classnames "^2.2.6"
-    rc-menu "~9.3.2"
-    rc-textarea "^0.3.0"
+    rc-menu "~9.8.0"
+    rc-textarea "^0.4.0"
     rc-trigger "^5.0.4"
-    rc-util "^5.0.1"
+    rc-util "^5.22.5"
 
-rc-menu@~9.2.1:
-  version "9.2.1"
-  resolved "http://rnpm.chehejia.com/rc-menu/download/rc-menu-9.2.1.tgz#6fbe47f4846363bb81a5a21f0960026c3ada497a"
-  integrity sha1-b75H9IRjY7uBpaIfCWACbDraSXo=
+rc-menu@~9.8.0:
+  version "9.8.1"
+  resolved "http://rnpm.chehejia.com/rc-menu/download/rc-menu-9.8.1.tgz#988cd807f78d2f92eab686f6813f50b165f78405"
+  integrity sha1-mIzYB/eNL5Lqtob2gT9QsWX3hAU=
   dependencies:
     "@babel/runtime" "^7.10.1"
     classnames "2.x"
     rc-motion "^2.4.3"
-    rc-overflow "^1.2.0"
+    rc-overflow "^1.2.8"
     rc-trigger "^5.1.2"
     rc-util "^5.12.0"
     shallowequal "^1.1.0"
 
-rc-menu@~9.3.2:
-  version "9.3.2"
-  resolved "http://rnpm.chehejia.com/rc-menu/download/rc-menu-9.3.2.tgz#bb842d37ebf71da912bea201cf7ef0a27267ad49"
-  integrity sha1-u4QtN+v3HakSvqIBz37wonJnrUk=
-  dependencies:
-    "@babel/runtime" "^7.10.1"
-    classnames "2.x"
-    rc-motion "^2.4.3"
-    rc-overflow "^1.2.0"
-    rc-trigger "^5.1.2"
-    rc-util "^5.12.0"
-    shallowequal "^1.1.0"
-
-rc-motion@^2.0.0, rc-motion@^2.0.1, rc-motion@^2.2.0, rc-motion@^2.3.0, rc-motion@^2.3.4, rc-motion@^2.4.3, rc-motion@^2.4.4:
+rc-motion@^2.0.0, rc-motion@^2.0.1, rc-motion@^2.3.0, rc-motion@^2.3.4, rc-motion@^2.4.3, rc-motion@^2.4.4:
   version "2.6.2"
   resolved "http://rnpm.chehejia.com/rc-motion/download/rc-motion-2.6.2.tgz#3d31f97e41fb8e4f91a4a4189b6a98ac63342869"
   integrity sha1-PTH5fkH7jk+RpKQYm2qYrGM0KGk=
@@ -7709,17 +7869,26 @@ rc-motion@^2.0.0, rc-motion@^2.0.1, rc-motion@^2.2.0, rc-motion@^2.3.0, rc-motio
     classnames "^2.2.1"
     rc-util "^5.21.0"
 
-rc-notification@~4.5.7:
-  version "4.5.7"
-  resolved "http://rnpm.chehejia.com/rc-notification/download/rc-notification-4.5.7.tgz#265e6e6a0c1a0fac63d6abd4d832eb8ff31522f1"
-  integrity sha1-Jl5uagwaD6xj1qvU2DLrj/MVIvE=
+rc-motion@^2.6.0, rc-motion@^2.6.1, rc-motion@^2.6.2:
+  version "2.6.3"
+  resolved "http://rnpm.chehejia.com/rc-motion/download/rc-motion-2.6.3.tgz#e6d8ca06591c2c1bcd3391a8e7a822ebc4d94e9c"
+  integrity sha1-5tjKBlkcLBvNM5Go56gi68TZTpw=
+  dependencies:
+    "@babel/runtime" "^7.11.1"
+    classnames "^2.2.1"
+    rc-util "^5.21.0"
+
+rc-notification@~5.0.0:
+  version "5.0.2"
+  resolved "http://rnpm.chehejia.com/rc-notification/download/rc-notification-5.0.2.tgz#31811ac90e9516d88990fd2a93dbe61cc1712eec"
+  integrity sha1-MYEayQ6VFtiJkP0qk9vmHMFxLuw=
   dependencies:
     "@babel/runtime" "^7.10.1"
     classnames "2.x"
-    rc-motion "^2.2.0"
-    rc-util "^5.0.1"
+    rc-motion "^2.6.0"
+    rc-util "^5.20.1"
 
-rc-overflow@^1.0.0, rc-overflow@^1.2.0:
+rc-overflow@^1.0.0:
   version "1.2.2"
   resolved "http://rnpm.chehejia.com/rc-overflow/download/rc-overflow-1.2.2.tgz#95b0222016c0cdbdc0db85f569c262e7706a5f22"
   integrity sha1-lbAiIBbAzb3A24X1acJi53BqXyI=
@@ -7729,32 +7898,39 @@ rc-overflow@^1.0.0, rc-overflow@^1.2.0:
     rc-resize-observer "^1.0.0"
     rc-util "^5.5.1"
 
-rc-pagination@~3.1.9:
-  version "3.1.17"
-  resolved "http://rnpm.chehejia.com/rc-pagination/download/rc-pagination-3.1.17.tgz#91e690aa894806e344cea88ea4a16d244194a1bd"
-  integrity sha1-keaQqolIBuNEzqiOpKFtJEGUob0=
+rc-overflow@^1.2.8:
+  version "1.2.8"
+  resolved "http://rnpm.chehejia.com/rc-overflow/download/rc-overflow-1.2.8.tgz#40f140fabc244118543e627cdd1ef750d9481a88"
+  integrity sha1-QPFA+rwkQRhUPmJ83R73UNlIGog=
+  dependencies:
+    "@babel/runtime" "^7.11.1"
+    classnames "^2.2.1"
+    rc-resize-observer "^1.0.0"
+    rc-util "^5.19.2"
+
+rc-pagination@~3.2.0:
+  version "3.2.0"
+  resolved "http://rnpm.chehejia.com/rc-pagination/download/rc-pagination-3.2.0.tgz#4f2fdba9fdac0f48e5c9fb1141973818138af7e1"
+  integrity sha1-Ty/bqf2sD0jlyfsRQZc4GBOK9+E=
   dependencies:
     "@babel/runtime" "^7.10.1"
     classnames "^2.2.1"
 
-rc-picker@~2.5.17:
-  version "2.5.19"
-  resolved "http://rnpm.chehejia.com/rc-picker/download/rc-picker-2.5.19.tgz#73d07546fac3992f0bfabf2789654acada39e46f"
-  integrity sha1-c9B1RvrDmS8L+r8niWVKyto55G8=
+rc-picker@~3.1.1:
+  version "3.1.4"
+  resolved "http://rnpm.chehejia.com/rc-picker/download/rc-picker-3.1.4.tgz#4806dc36a78424abaee610830777c8e22a23c74c"
+  integrity sha1-SAbcNqeEJKuu5hCDB3fI4iojx0w=
   dependencies:
     "@babel/runtime" "^7.10.1"
     classnames "^2.2.1"
-    date-fns "2.x"
-    dayjs "1.x"
-    moment "^2.24.0"
     rc-trigger "^5.0.4"
     rc-util "^5.4.0"
     shallowequal "^1.1.0"
 
-rc-progress@~3.2.1:
-  version "3.2.4"
-  resolved "http://rnpm.chehejia.com/rc-progress/download/rc-progress-3.2.4.tgz#4036acdae2566438545bc4df2203248babaf7549"
-  integrity sha1-QDas2uJWZDhUW8TfIgMki6uvdUk=
+rc-progress@~3.4.1:
+  version "3.4.1"
+  resolved "http://rnpm.chehejia.com/rc-progress/download/rc-progress-3.4.1.tgz#a9ffe099e88a4fc03afb09d8603162bf0760d743"
+  integrity sha1-qf/gmeiKT8A6+wnYYDFivwdg10M=
   dependencies:
     "@babel/runtime" "^7.10.1"
     classnames "^2.2.6"
@@ -7779,10 +7955,20 @@ rc-resize-observer@^1.0.0, rc-resize-observer@^1.1.0, rc-resize-observer@^1.2.0:
     rc-util "^5.15.0"
     resize-observer-polyfill "^1.5.1"
 
-rc-select@~14.0.0-alpha.15, rc-select@~14.0.0-alpha.23, rc-select@~14.0.0-alpha.8:
-  version "14.0.6"
-  resolved "http://rnpm.chehejia.com/rc-select/download/rc-select-14.0.6.tgz#93be0b185a9d66dc84795e079121f0f65310d8bf"
-  integrity sha1-k74LGFqdZtyEeV4HkSHw9lMQ2L8=
+rc-segmented@~2.1.0:
+  version "2.1.0"
+  resolved "http://rnpm.chehejia.com/rc-segmented/download/rc-segmented-2.1.0.tgz#0e0afe646c1a0e44a0e18785f518c42633ec8efc"
+  integrity sha1-Dgr+ZGwaDkSg4YeF9RjEJjPsjvw=
+  dependencies:
+    "@babel/runtime" "^7.11.1"
+    classnames "^2.2.1"
+    rc-motion "^2.4.4"
+    rc-util "^5.17.0"
+
+rc-select@~14.2.0:
+  version "14.2.0"
+  resolved "http://rnpm.chehejia.com/rc-select/download/rc-select-14.2.0.tgz#60e83a7d5a5dae7fd9e3918d9b209074ea2c92d4"
+  integrity sha1-YOg6fVpdrn/Z45GNmyCQdOosktQ=
   dependencies:
     "@babel/runtime" "^7.10.1"
     classnames "2.x"
@@ -7790,72 +7976,72 @@ rc-select@~14.0.0-alpha.15, rc-select@~14.0.0-alpha.23, rc-select@~14.0.0-alpha.
     rc-overflow "^1.0.0"
     rc-trigger "^5.0.4"
     rc-util "^5.16.1"
-    rc-virtual-list "^3.2.0"
+    rc-virtual-list "^3.4.13"
 
-rc-slider@~9.7.4:
-  version "9.7.5"
-  resolved "http://rnpm.chehejia.com/rc-slider/download/rc-slider-9.7.5.tgz#193141c68e99b1dc3b746daeb6bf852946f5b7f4"
-  integrity sha1-GTFBxo6Zsdw7dG2utr+FKUb1t/Q=
+rc-slider@~10.0.0:
+  version "10.0.1"
+  resolved "http://rnpm.chehejia.com/rc-slider/download/rc-slider-10.0.1.tgz#7058c68ff1e1aa4e7c3536e5e10128bdbccb87f9"
+  integrity sha1-cFjGj/Hhqk58NTbl4QEovbzLh/k=
   dependencies:
     "@babel/runtime" "^7.10.1"
     classnames "^2.2.5"
-    rc-tooltip "^5.0.1"
-    rc-util "^5.16.1"
+    rc-util "^5.18.1"
     shallowequal "^1.1.0"
 
-rc-steps@~4.1.0:
-  version "4.1.4"
-  resolved "http://rnpm.chehejia.com/rc-steps/download/rc-steps-4.1.4.tgz#0ba82db202d59ca52d0693dc9880dd145b19dc23"
-  integrity sha1-C6gtsgLVnKUtBpPcmIDdFFsZ3CM=
+rc-steps@~6.0.0:
+  version "6.0.0"
+  resolved "http://rnpm.chehejia.com/rc-steps/download/rc-steps-6.0.0.tgz#f7148f8097d5d135f19b96c1b4f4b50ad6093753"
+  integrity sha1-9xSPgJfV0TXxm5bBtPS1CtYJN1M=
   dependencies:
-    "@babel/runtime" "^7.10.2"
+    "@babel/runtime" "^7.16.7"
     classnames "^2.2.3"
-    rc-util "^5.0.1"
+    rc-util "^5.16.1"
 
-rc-switch@~3.2.0:
-  version "3.2.2"
-  resolved "http://rnpm.chehejia.com/rc-switch/download/rc-switch-3.2.2.tgz#d001f77f12664d52595b4f6fb425dd9e66fba8e8"
-  integrity sha1-0AH3fxJmTVJZW09vtCXdnmb7qOg=
+rc-switch@~4.0.0:
+  version "4.0.0"
+  resolved "http://rnpm.chehejia.com/rc-switch/download/rc-switch-4.0.0.tgz#55fbf99fc2d680791175037d379e170ba51fbe78"
+  integrity sha1-Vfv5n8LWgHkRdQN9N54XC6Ufvng=
   dependencies:
     "@babel/runtime" "^7.10.1"
     classnames "^2.2.1"
     rc-util "^5.0.1"
 
-rc-table@~7.22.2:
-  version "7.22.2"
-  resolved "http://rnpm.chehejia.com/rc-table/download/rc-table-7.22.2.tgz#218f3f53bc91660560a344c8290a91a841a60b0a"
-  integrity sha1-IY8/U7yRZgVgo0TIKQqRqEGmCwo=
+rc-table@~7.30.2:
+  version "7.30.3"
+  resolved "http://rnpm.chehejia.com/rc-table/download/rc-table-7.30.3.tgz#9333e4d0b106738d88e2e16c8b066dfb29d93114"
+  integrity sha1-kzPk0LEGc42I4uFsiwZt+ynZMRQ=
   dependencies:
     "@babel/runtime" "^7.10.1"
+    "@rc-component/context" "^1.3.0"
     classnames "^2.2.5"
     rc-resize-observer "^1.1.0"
-    rc-util "^5.14.0"
-    shallowequal "^1.1.0"
+    rc-util "^5.27.1"
 
-rc-tabs@~11.10.0:
-  version "11.10.8"
-  resolved "http://rnpm.chehejia.com/rc-tabs/download/rc-tabs-11.10.8.tgz#832d3425bde232b9c4447075b5deef3e2fefa48f"
-  integrity sha1-gy00Jb3iMrnERHB1td7vPi/vpI8=
+rc-tabs@~12.5.1:
+  version "12.5.6"
+  resolved "http://rnpm.chehejia.com/rc-tabs/download/rc-tabs-12.5.6.tgz#611728575d5f3ef010a8e5e75d2c1b67bb71e86a"
+  integrity sha1-YRcoV11fPvAQqOXnXSwbZ7tx6Go=
   dependencies:
     "@babel/runtime" "^7.11.2"
     classnames "2.x"
-    rc-dropdown "^3.2.0"
-    rc-menu "~9.3.2"
+    rc-dropdown "~4.0.0"
+    rc-menu "~9.8.0"
+    rc-motion "^2.6.2"
     rc-resize-observer "^1.0.0"
-    rc-util "^5.5.0"
+    rc-util "^5.16.0"
 
-rc-textarea@^0.3.0, rc-textarea@~0.3.0:
-  version "0.3.7"
-  resolved "http://rnpm.chehejia.com/rc-textarea/download/rc-textarea-0.3.7.tgz#987142891efdedb774883c07e2f51b318fde5a11"
-  integrity sha1-mHFCiR797bd0iDwH4vUbMY/eWhE=
+rc-textarea@^0.4.0, rc-textarea@~0.4.5:
+  version "0.4.7"
+  resolved "http://rnpm.chehejia.com/rc-textarea/download/rc-textarea-0.4.7.tgz#627f662d46f99e0059d1c1ebc8db40c65339fe90"
+  integrity sha1-Yn9mLUb5ngBZ0cHryNtAxlM5/pA=
   dependencies:
     "@babel/runtime" "^7.10.1"
     classnames "^2.2.1"
     rc-resize-observer "^1.0.0"
-    rc-util "^5.7.0"
+    rc-util "^5.24.4"
     shallowequal "^1.1.0"
 
-rc-tooltip@^5.0.1:
+rc-tooltip@~5.2.0:
   version "5.2.2"
   resolved "http://rnpm.chehejia.com/rc-tooltip/download/rc-tooltip-5.2.2.tgz#e5cafa8ecebf78108936a0bcb93c150fa81ac93b"
   integrity sha1-5cr6js6/eBCJNqC8uTwVD6gayTs=
@@ -7864,40 +8050,43 @@ rc-tooltip@^5.0.1:
     classnames "^2.3.1"
     rc-trigger "^5.0.0"
 
-rc-tooltip@~5.1.1:
-  version "5.1.1"
-  resolved "http://rnpm.chehejia.com/rc-tooltip/download/rc-tooltip-5.1.1.tgz#94178ed162d0252bc4993b725f5dc2ac0fccf154"
-  integrity sha1-lBeO0WLQJSvEmTtyX13CrA/M8VQ=
-  dependencies:
-    "@babel/runtime" "^7.11.2"
-    rc-trigger "^5.0.0"
-
-rc-tree-select@~5.1.1:
-  version "5.1.5"
-  resolved "http://rnpm.chehejia.com/rc-tree-select/download/rc-tree-select-5.1.5.tgz#ed51cc45eb490d18d67eba6864e9c7321199fcc0"
-  integrity sha1-7VHMRetJDRjWfrpoZOnHMhGZ/MA=
+rc-tree-select@~5.6.0:
+  version "5.6.0"
+  resolved "http://rnpm.chehejia.com/rc-tree-select/download/rc-tree-select-5.6.0.tgz#f34147f4c14341430bcece481804496d0abd3371"
+  integrity sha1-80FH9MFDQUMLzs5IGARJbQq9M3E=
   dependencies:
     "@babel/runtime" "^7.10.1"
     classnames "2.x"
-    rc-select "~14.0.0-alpha.8"
-    rc-tree "~5.4.3"
+    rc-select "~14.2.0"
+    rc-tree "~5.7.0"
     rc-util "^5.16.1"
 
-rc-tree@~5.4.3:
-  version "5.4.4"
-  resolved "http://rnpm.chehejia.com/rc-tree/download/rc-tree-5.4.4.tgz#2ea3663ad3c566aef79a46ba6a1e050d24323e01"
-  integrity sha1-LqNmOtPFZq73mka6ah4FDSQyPgE=
+rc-tree@~5.7.0:
+  version "5.7.2"
+  resolved "http://rnpm.chehejia.com/rc-tree/download/rc-tree-5.7.2.tgz#270ea7d9e1b2e5e81cd3659eba2fbd022a4831f6"
+  integrity sha1-Jw6n2eGy5egc02Weui+9AipIMfY=
   dependencies:
     "@babel/runtime" "^7.10.1"
     classnames "2.x"
     rc-motion "^2.0.1"
     rc-util "^5.16.1"
-    rc-virtual-list "^3.4.2"
+    rc-virtual-list "^3.4.8"
 
-rc-trigger@^5.0.0, rc-trigger@^5.0.4, rc-trigger@^5.1.2, rc-trigger@^5.2.10:
+rc-trigger@^5.0.0, rc-trigger@^5.0.4, rc-trigger@^5.1.2:
   version "5.3.3"
   resolved "http://rnpm.chehejia.com/rc-trigger/download/rc-trigger-5.3.3.tgz#166013df79e6a4ce64515391bd6d4f8386839761"
   integrity sha1-FmAT33nmpM5kUVORvW1Pg4aDl2E=
+  dependencies:
+    "@babel/runtime" "^7.18.3"
+    classnames "^2.2.6"
+    rc-align "^4.0.0"
+    rc-motion "^2.0.0"
+    rc-util "^5.19.2"
+
+rc-trigger@^5.3.1, rc-trigger@^5.3.4:
+  version "5.3.4"
+  resolved "http://rnpm.chehejia.com/rc-trigger/download/rc-trigger-5.3.4.tgz#6b4b26e32825677c837d1eb4d7085035eecf9a61"
+  integrity sha1-a0sm4yglZ3yDfR601whQNe7PmmE=
   dependencies:
     "@babel/runtime" "^7.18.3"
     classnames "^2.2.6"
@@ -7914,7 +8103,7 @@ rc-upload@~4.3.0:
     classnames "^2.2.5"
     rc-util "^5.2.0"
 
-rc-util@^5.0.1, rc-util@^5.0.6, rc-util@^5.12.0, rc-util@^5.14.0, rc-util@^5.15.0, rc-util@^5.16.1, rc-util@^5.17.0, rc-util@^5.19.2, rc-util@^5.2.0, rc-util@^5.2.1, rc-util@^5.21.0, rc-util@^5.23.0, rc-util@^5.3.0, rc-util@^5.4.0, rc-util@^5.5.0, rc-util@^5.5.1, rc-util@^5.6.1, rc-util@^5.7.0, rc-util@^5.8.0, rc-util@^5.9.4:
+rc-util@^5.0.1, rc-util@^5.0.6, rc-util@^5.12.0, rc-util@^5.15.0, rc-util@^5.16.1, rc-util@^5.17.0, rc-util@^5.19.2, rc-util@^5.2.0, rc-util@^5.2.1, rc-util@^5.21.0, rc-util@^5.23.0, rc-util@^5.3.0, rc-util@^5.4.0, rc-util@^5.5.1, rc-util@^5.6.1, rc-util@^5.8.0, rc-util@^5.9.4:
   version "5.24.4"
   resolved "http://rnpm.chehejia.com/rc-util/download/rc-util-5.24.4.tgz#a4126f01358c86f17c1bf380a1d83d6c9155ae65"
   integrity sha1-pBJvATWMhvF8G/OAodg9bJFVrmU=
@@ -7923,10 +8112,18 @@ rc-util@^5.0.1, rc-util@^5.0.6, rc-util@^5.12.0, rc-util@^5.14.0, rc-util@^5.15.
     react-is "^16.12.0"
     shallowequal "^1.1.0"
 
-rc-virtual-list@^3.2.0, rc-virtual-list@^3.4.2:
-  version "3.4.11"
-  resolved "http://rnpm.chehejia.com/rc-virtual-list/download/rc-virtual-list-3.4.11.tgz#97f5e947380d546a2ca8ad229d8e41e9b33b20c6"
-  integrity sha1-l/XpRzgNVGosqK0inY5B6bM7IMY=
+rc-util@^5.16.0, rc-util@^5.18.1, rc-util@^5.20.1, rc-util@^5.21.2, rc-util@^5.22.5, rc-util@^5.24.4, rc-util@^5.27.0, rc-util@^5.27.1:
+  version "5.27.1"
+  resolved "http://rnpm.chehejia.com/rc-util/download/rc-util-5.27.1.tgz#d12f02b9577b04299c0f1a235c8acbcf56e2824b"
+  integrity sha1-0S8CuVd7BCmcDxojXIrLz1bigks=
+  dependencies:
+    "@babel/runtime" "^7.18.3"
+    react-is "^16.12.0"
+
+rc-virtual-list@^3.4.13, rc-virtual-list@^3.4.8:
+  version "3.4.13"
+  resolved "http://rnpm.chehejia.com/rc-virtual-list/download/rc-virtual-list-3.4.13.tgz#20acc934b263abcf7b7c161f50ef82281b2f7e8d"
+  integrity sha1-IKzJNLJjq897fBYfUO+CKBsvfo0=
   dependencies:
     "@babel/runtime" "^7.20.0"
     classnames "^2.2.6"
@@ -7987,6 +8184,20 @@ react-error-overlay@^6.0.11:
   version "6.0.11"
   resolved "http://rnpm.chehejia.com/react-error-overlay/download/react-error-overlay-6.0.11.tgz#92835de5841c5cf08ba00ddd2d677b6d17ff9adb"
   integrity sha1-koNd5YQcXPCLoA3dLWd7bRf/mts=
+
+react-intl-universal@^2.6.11:
+  version "2.6.11"
+  resolved "http://rnpm.chehejia.com/react-intl-universal/download/react-intl-universal-2.6.11.tgz#91cac8d05ef226d5a3a739bbbf1da43f34e4ccc8"
+  integrity sha1-kcrI0F7yJtWjpzm7vx2kPzTkzMg=
+  dependencies:
+    cookie "^0.3.1"
+    escape-html "^1.0.3"
+    intl "^1.2.5"
+    intl-messageformat "^7.8.4"
+    invariant "^2.2.2"
+    lodash.merge "^4.6.2"
+    object-keys "^1.0.11"
+    querystring "^0.2.0"
 
 react-is@^16.12.0, react-is@^16.13.1:
   version "16.13.1"
@@ -8138,6 +8349,11 @@ regenerator-runtime@^0.13.10, regenerator-runtime@^0.13.4, regenerator-runtime@^
   resolved "http://rnpm.chehejia.com/regenerator-runtime/download/regenerator-runtime-0.13.10.tgz#ed07b19616bcbec5da6274ebc75ae95634bfc2ee"
   integrity sha1-7Qexlha8vsXaYnTrx1rpVjS/wu4=
 
+regenerator-runtime@^0.13.11:
+  version "0.13.11"
+  resolved "http://rnpm.chehejia.com/regenerator-runtime/download/regenerator-runtime-0.13.11.tgz#f6dca3e7ceec20590d07ada785636a90cdca17f9"
+  integrity sha1-9tyj587sIFkNB62nhWNqkM3KF/k=
+
 regenerator-transform@^0.15.0:
   version "0.15.0"
   resolved "http://rnpm.chehejia.com/regenerator-transform/download/regenerator-transform-0.15.0.tgz#cbd9ead5d77fae1a48d957cf889ad0586adb6537"
@@ -8219,7 +8435,7 @@ requires-port@^1.0.0:
   resolved "http://rnpm.chehejia.com/requires-port/download/requires-port-1.0.0.tgz#925d2601d39ac485e091cf0da5c6e694dc3dcaff"
   integrity sha1-kl0mAdOaxIXgkc8NpcbmlNw9yv8=
 
-resize-observer-polyfill@^1.5.0, resize-observer-polyfill@^1.5.1:
+resize-observer-polyfill@^1.5.1:
   version "1.5.1"
   resolved "http://rnpm.chehejia.com/resize-observer-polyfill/download/resize-observer-polyfill-1.5.1.tgz#0e9020dd3d21024458d4ebd27e23e40269810464"
   integrity sha1-DpAg3T0hAkRY1OvSfiPkAmmBBGQ=
@@ -8409,12 +8625,12 @@ schema-utils@^4.0.0:
     ajv-formats "^2.1.1"
     ajv-keywords "^5.0.0"
 
-scroll-into-view-if-needed@^2.2.25:
-  version "2.2.29"
-  resolved "http://rnpm.chehejia.com/scroll-into-view-if-needed/download/scroll-into-view-if-needed-2.2.29.tgz#551791a84b7e2287706511f8c68161e4990ab885"
-  integrity sha1-VReRqEt+IodwZRH4xoFh5JkKuIU=
+scroll-into-view-if-needed@^3.0.3:
+  version "3.0.4"
+  resolved "http://rnpm.chehejia.com/scroll-into-view-if-needed/download/scroll-into-view-if-needed-3.0.4.tgz#4b3101712f0ac8ec982c0a7ab4d071e393241e21"
+  integrity sha1-SzEBcS8KyOyYLAp6tNBx45MkHiE=
   dependencies:
-    compute-scroll-into-view "^1.0.17"
+    compute-scroll-into-view "^2.0.4"
 
 select-hose@^2.0.0:
   version "2.0.0"
@@ -8510,6 +8726,13 @@ setprototypeof@1.2.0:
   version "1.2.0"
   resolved "http://rnpm.chehejia.com/setprototypeof/download/setprototypeof-1.2.0.tgz#66c9a24a73f9fc28cbe66b09fed3d33dcaf1b424"
   integrity sha1-ZsmiSnP5/CjL5msJ/tPTPcrxtCQ=
+
+shallow-clone@^3.0.0:
+  version "3.0.1"
+  resolved "http://rnpm.chehejia.com/shallow-clone/download/shallow-clone-3.0.1.tgz#8f2981ad92531f55035b01fb230769a40e02efa3"
+  integrity sha1-jymBrZJTH1UDWwH7IwdppA4C76M=
+  dependencies:
+    kind-of "^6.0.2"
 
 shallowequal@^1.1.0:
   version "1.1.0"
@@ -8832,6 +9055,11 @@ stylehacks@^5.1.0:
     browserslist "^4.16.6"
     postcss-selector-parser "^6.0.4"
 
+stylis@^4.0.13:
+  version "4.1.3"
+  resolved "http://rnpm.chehejia.com/stylis/download/stylis-4.1.3.tgz#fd2fbe79f5fed17c55269e16ed8da14c84d069f7"
+  integrity sha1-/S++efX+0XxVJp4W7Y2hTITQafc=
+
 supports-color@^5.3.0:
   version "5.5.0"
   resolved "http://rnpm.chehejia.com/supports-color/download/supports-color-5.5.0.tgz#e2e69a44ac8772f78a1ec0b35b689df6530efc8f"
@@ -9008,6 +9236,11 @@ throat@^6.0.1:
   version "6.0.1"
   resolved "http://rnpm.chehejia.com/throat/download/throat-6.0.1.tgz#d514fedad95740c12c2d7fc70ea863eb51ade375"
   integrity sha1-1RT+2tlXQMEsLX/HDqhj61Gt43U=
+
+throttle-debounce@^5.0.0:
+  version "5.0.0"
+  resolved "http://rnpm.chehejia.com/throttle-debounce/download/throttle-debounce-5.0.0.tgz#a17a4039e82a2ed38a5e7268e4132d6960d41933"
+  integrity sha1-oXpAOegqLtOKXnJo5BMtaWDUGTM=
 
 thunky@^1.0.2:
   version "1.1.0"
@@ -9412,12 +9645,13 @@ webpack-manifest-plugin@^4.0.2:
     tapable "^2.0.0"
     webpack-sources "^2.2.0"
 
-webpack-merge@^4.2.2:
-  version "4.2.2"
-  resolved "http://rnpm.chehejia.com/webpack-merge/download/webpack-merge-4.2.2.tgz#a27c52ea783d1398afd2087f547d7b9d2f43634d"
-  integrity sha1-onxS6ng9E5iv0gh/VH17nS9DY00=
+webpack-merge@^5.8.0:
+  version "5.8.0"
+  resolved "http://rnpm.chehejia.com/webpack-merge/download/webpack-merge-5.8.0.tgz#2b39dbf22af87776ad744c390223731d30a68f61"
+  integrity sha1-Kznb8ir4d3atdEw5AiNzHTCmj2E=
   dependencies:
-    lodash "^4.17.15"
+    clone-deep "^4.0.1"
+    wildcard "^2.0.0"
 
 webpack-sources@^1.4.3:
   version "1.4.3"
@@ -9543,6 +9777,11 @@ which@^2.0.1:
   integrity sha1-fGqN0KY2oDJ+ELWckobu6T8/UbE=
   dependencies:
     isexe "^2.0.0"
+
+wildcard@^2.0.0:
+  version "2.0.0"
+  resolved "http://rnpm.chehejia.com/wildcard/download/wildcard-2.0.0.tgz#a77d20e5200c6faaac979e4b3aadc7b3dd7f8fec"
+  integrity sha1-p30g5SAMb6qsl55LOq3Hs91/j+w=
 
 word-wrap@^1.2.3, word-wrap@~1.2.3:
   version "1.2.3"
