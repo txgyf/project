@@ -4,12 +4,14 @@ import './index.css';
 import App from './page/index';
 import ThreeFiber from './page/threeFiber/threeFiber';
 import Cube from './page/threeFiber/cube';
+import Demo from './page/threeFiber/demo';
 import reportWebVitals from './reportWebVitals';
 
 ReactDOM.render(
   <React.StrictMode>
     {/* <App /> */}
-    <ThreeFiber />
+    <Demo />
+    {/* <ThreeFiber /> */}
   </React.StrictMode>,
   document.getElementById('root')
 );
